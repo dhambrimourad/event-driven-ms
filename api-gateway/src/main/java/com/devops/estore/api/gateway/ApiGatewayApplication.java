@@ -7,11 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 import java.util.List;
 
-@EnableEurekaClient
 @EnableDiscoveryClient
 @SpringBootApplication
 public class ApiGatewayApplication implements CommandLineRunner {
